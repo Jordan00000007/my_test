@@ -1,0 +1,81 @@
+<header class="row flex-nowrap justify-content-between align-items-center mar0">
+
+    <div class="col-4">
+        <a class="navbar-brand" href="javascript:void(0);">
+            <img src="../../assets/Antzer-LOGO.png" alt="" style="max-width: 100px;">
+        </a>
+    </div>
+    <div class="col-4 pad5 text-center">
+     
+    </div>
+    <div class="col-4 text-right pad5">
+        <a href="warningEvent" style="color: #ffffff;">
+            <i class="fas fa-bell" style="font-size: 22px;"></i>
+            <span id="eventCount" class="badge"></span>
+        </a>
+        <a class="nav-button" id="homeNavBtn">
+            <span id="nav-icon3">
+                <span style="background: #ffffff;"></span>
+                <span style="background: #ffffff;"></span>
+                <span style="background: #ffffff;"></span>
+                <span style="background: #ffffff;"></span>
+            </span>
+        </a>
+    </div>
+
+
+
+    <div class="fixed-top main-menu">
+        <div class="flex-center p-5">
+            <ul class="nav flex-column">
+                <li class="nav-item delay-1">
+                    <a class="nav-link" href="userTreeView">
+                        <i class="fas fa-fw fa-user"></i> 帳密設定
+                    </a>
+                </li>
+                <li class="nav-item delay-2">
+                    <a class="nav-link" href="changePassword">
+                        <i class="fas fa-fw fa-key"></i> 更改密碼
+                    </a>
+                </li>
+                <li class="nav-item delay-2">
+                    <a class="nav-link" href="gatewaySetting">
+                        <i class="fab fa-fw fa-mixcloud"></i> 閘道設定
+                    </a>
+                </li>
+                <li class="nav-item delay-2">
+                    <a class="nav-link" href="tagSetting">
+                        <i class="fas fa-fw fa-temperature-low"></i> 偵測器設定
+                    </a>
+                </li>
+                
+                <li class="nav-item delay-2">
+                    <a class="nav-link" href="problem">
+                        <i class="fas fa-fw fa-exclamation-circle"></i> 問題回報
+                    </a>
+                </li>
+                <li class="nav-item delay-3">
+                    <a class="nav-link" href="logout">
+                        <i class="fas fa-fw fa-sign-out-alt"></i> 登出系統
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <div class="articleTitle">
+        <label id="Title" class="MarkTitle">客戶名稱</label> - 閘道列表
+    </div>
+    
+    <table id="GatewayList" class="DeviceList">
+        
+        <tr><th width="33%">閘道名稱</th><th width="33%">偵測器</th><th width="33%">告警</th></tr>
+       
+    </table>
+
+
+
+</main>

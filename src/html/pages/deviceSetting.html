@@ -1,0 +1,67 @@
+<header class="row flex-nowrap justify-content-between align-items-center mar0">
+    <div class="col-4">
+        <!-- <a class="navbar-brand" href="#" onclick="event.preventDefault();history.go(-1);"> -->
+        <a class="navbar-brand" href="home">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+
+        <div class="articleTitle" id="titleName">
+
+        </div>
+        <hr>
+
+        <div class="form-group">
+            <label for="">
+                車機名稱
+            </label>
+            <input type="" class="form-control" id="deviceName" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="">
+                IMEI
+            </label>
+            <input type="" class="form-control" id="imei" placeholder="*****" readonly>
+        </div>
+        <div class="form-group">
+            <label for="">
+                司機名稱
+            </label>
+            <input type="" class="form-control" id="driverName" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="">
+                防盜告警靈敏度設定
+            </label>
+            <select class="form-control" id='sensitivitySelect'>
+                <option value="1">1 (最低)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4 (建議值)</option>
+                <option value="5">5 (最高)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="">
+                車機到期時間
+            </label>
+            <input type="" class="form-control" id="expiryDate" placeholder="" readonly="value">
+        </div>
+
+
+        <button type="button" class="btn btn-Cancel btn-block" id="deleteDeviceBtn">
+            刪除此車機
+        </button>
+
+        <button type="button" class="btn btn-Submit btn-block" id="saveDeviceBtn">
+            儲存此車機
+        </button>
+
+        <div id="popmsg" class="col-12" style="display:none;margin-bottom: 5px;"></div>
+
+    </div>
+</main>

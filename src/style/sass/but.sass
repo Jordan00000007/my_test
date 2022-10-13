@@ -1,0 +1,87 @@
+.switch
+	margin: 30px auto
+	position: relative
+	z-index: 3
+	width: 100px
+	height: 100px
+	& label
+		width: 100%
+		height: 100%
+		position: relative
+		display: block
+	& input
+		top: 0 
+		right: 0 
+		bottom: 0 
+		left: 0
+		opacity: 0
+		z-index: 100
+		position: absolute
+		width: 100%
+		height: 100%
+		cursor: pointer
+
+
+.switchbut label
+	border-radius: 50%
+	background: #70CEFF
+	background: -moz-linear-gradient(#97D9FB, #70CEFF, #0196E3, #70CEFF)
+	background: -ms-linear-gradient(#97D9FB, #70CEFF, #0196E3, #70CEFF)
+	background: -o-linear-gradient(#97D9FB, #70CEFF, #0196E3, #70CEFF)
+	background: -webkit-linear-gradient(#97D9FB, #70CEFF, #0196E3, #70CEFF)
+	background: linear-gradient(#97D9FB, #70CEFF, #0196E3, #70CEFF)
+	position: relative
+	color: #ffffff
+	font-size: 30px
+	text-align: center
+	line-height: 100px
+	transition: all 0.3s ease-out
+  	text-shadow: 0 2px 1px rgba(0,0,0,0.25)
+	box-shadow: inset 0 2px 3px rgba(255,255,255,0.13), 0 5px 8px rgba(0,0,0,0.3), 0 10px 10px 4px rgba(0,0,0,0.2)
+	z-index: -1
+	&:before
+		font-family: "Font Awesome 5 Free"
+		font-weight: 900
+		content: "\f09c"
+		font-size: 30px
+	
+
+
+.switchbut2 label
+	border-radius: 50%
+	background: #014163
+	background: -moz-linear-gradient(#2895CF, #0D71A7, #014163, #2895CF)
+	background: -ms-linear-gradient(#2895CF, #0D71A7, #014163, #2895CF)
+	background: -o-linear-gradient(#2895CF, #0D71A7, #014163, #2895CF)
+	background: -webkit-linear-gradient(#2895CF, #0D71A7, #014163, #2895CF)
+	background: linear-gradient(#2895CF, #0D71A7, #014163, #2895CF)
+	box-shadow: inset 0 2px 3px rgba(255,255,255,0.13), 0 5px 8px rgba(0,0,0,0.35), 0 3px 10px 4px rgba(0,0,0,0.1)
+	position: relative
+	color: #ffffff
+	font-size: 30px
+	text-align: center
+	line-height: 100px
+	transition: all 0.3s ease-out
+  	text-shadow: 0 2px 1px rgba(0,0,0,0.25)
+	z-index: -1
+	&:before
+		font-family: "Font Awesome 5 Free"
+		font-weight: 900
+		content: "\f023"
+		font-size: 30px
+	
+
+		
+button
+	margin: 20px 0
+	&:hover
+		opacity: .8
+		box-shadow: 0 6px 10px -4px rgba(0,0,0,.3)
+.btn-Cancel
+	background-color: #ffffff
+	color: #014163
+	box-shadow: 0 6px 10px -4px rgba(0,0,0,.8)
+.btn-Submit
+	background-color: #014163
+	color: #ffffff
+	box-shadow: 0 6px 10px -4px rgba(0,0,0,.8)

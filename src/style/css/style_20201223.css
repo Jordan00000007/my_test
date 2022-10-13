@@ -1,0 +1,184 @@
+
+
+
+
+ thead th {
+    background-color: #CEE1FC;
+    color: #0C3C8D;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 8px 20px !important;
+}
+tbody td {
+    color: #112B4E;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 20px !important;
+    vertical-align : middle;
+    line-height: 1;
+}
+
+table{
+    /* height: 60px; */
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+.table > tbody > tr > td, .table > thead > tr > th {
+    vertical-align: middle !important;
+} 
+
+.table > tbody > tr > td > div, .table > thead > tr > th > div {
+    /* vertical-align: bottom !important;*/
+    display:inline-flex;
+    align-items:center;
+    flex-direction:row;
+} 
+
+.modal-body td{
+    padding: 15px 12px !important;
+}
+
+
+td:first-child {
+    font-weight: 800;
+}
+
+.table-bordered {
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+/* top-left border-radius */
+table tr:first-child th:first-child {
+    border-top-left-radius: 5px;
+}
+  
+/* top-right border-radius */
+table tr:first-child th:last-child {
+    border-top-right-radius: 5px;
+}
+
+.pagination .page-link {
+    position: relative;
+    width: 32px;
+    padding: .625rem 0;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1rem;
+    text-align: center;
+    font-weight: 800;
+   
+}
+.page-link {
+    position: relative;
+    float: left;
+    padding: 3px 11px;
+    margin-left: -1px;
+    color: #112B4E;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #fff;
+    border:0px !important;
+} 
+.pagination .page-link.active, .pagination .page-link.active:active .page-link {
+    background-color: #CEE1FC ;
+    color: #112B4E;
+    border:0px;
+    
+}
+
+.no-border{
+    border:none;
+}
+
+.modal-dialog {
+    top: -0vh;
+    right: 0vw;
+  }
+
+.confirmString{
+    color:#144BA7;
+    font-size: 30px;
+    opacity: 1;
+    margin-top:30px;
+    margin-left:30px;
+    margin-bottom: 50px;
+}
+
+ .btn{
+    width:120px!important;
+    height:44px!important;
+    margin-right:5px;
+} 
+.btn-primary.custom-blue {
+	background-color: #144BA7 ;
+	border-color: #144BA7 ;
+}
+.btn-primary.custom-blue:hover {
+	background-color: #3478EB ;
+	border-color: #3478EB ;
+}
+.btn-secondary.custom-gray {
+	background-color: #A5A5A5 ;
+	border-color: #A5A5A5 ;
+}
+.btn-secondary.custom-gray:hover {
+	background-color: #C9C9C9 ;
+	border-color: #C9C9C9 ;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #144BA7;
+  }
+ 
+.bootstrap-datetimepicker-widget table th,.bootstrap-datetimepicker-widget table td{
+  
+    padding: 4px !important;
+  }
+  
+
+

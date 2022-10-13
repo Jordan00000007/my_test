@@ -1,0 +1,35 @@
+<svg width="400" height="185" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet">
+ <defs>
+  <path id="a3RXFEK20S" d="m402,182c0,0 0,0 0,0c0,-109.2 0,-169.87 0,-182c0,0 0,0 0,0c-241.2,0 -375.2,0 -402,0c0,0 0,0 0,0c0,109.2 0,169.87 0,182c0,0 0,0 0,0c241.2,0 375.2,0 402,0z"/>
+  <path id="d16fNJm2lm" d="m8.52,141.71c-0.62,-1.26 -0.78,-15.75 -0.62,-50.1c0.01,-3.23 0.09,-19.34 0.23,-48.33c1.13,-0.87 1.75,-1.35 1.88,-1.45c1.09,-0.85 3.35,-1.91 5.62,-2.62c6.79,-2.13 5.07,-2.08 58.63,-2.08c3.16,0 18.99,0 47.47,0c37.66,0.06 56.5,0.06 56.5,0c0,-0.68 19.89,-33.61 20.1,-33.53c0.78,0.33 7.36,11.51 19.75,33.53l62.6,0l96.11,0c2.86,0.51 4.45,0.79 4.76,0.85c5.08,0.87 7.73,1.8 10.54,3.63c0.12,0.08 0.69,0.45 1.72,1.12c0.14,29.74 0.22,46.26 0.24,49.56c0.23,55.7 0.7,51.09 -5.78,53.52c-1.88,0.68 -5.08,1.55 -7.11,1.91c-0.25,0.04 -1.5,0.27 -3.74,0.68c-104.93,0.03 -163.23,0.05 -174.89,0.06c-164.26,0.05 -175.11,0.02 -178.78,-0.41c-8.28,-1.01 -13.74,-3.28 -15.23,-6.34z"/>
+  <path id="cbJjCJHhA"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="187" width="402" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="svg_2">
+    <g id="svg_3">
+     <use id="svg_4" fill-opacity="0" fill="#000000" xlink:href="#a3RXFEK20S"/>
+     <g id="svg_5">
+      <use id="svg_6" stroke-opacity="0" stroke="#000000" fill-opacity="0" xlink:href="#a3RXFEK20S"/>
+     </g>
+    </g>
+    <g id="svg_7">
+     <use id="svg_8" fill="#4caf50" xlink:href="#d16fNJm2lm"/>
+     <g id="svg_9">
+      <use id="svg_10" stroke="#ffffff" fill-opacity="0" xlink:href="#d16fNJm2lm"/>
+     </g>
+    </g>
+    <g id="svg_11">
+     <g id="svg_12">
+      <use id="svg_13" stroke="#000000" fill-opacity="0" xlink:href="#cbJjCJHhA"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

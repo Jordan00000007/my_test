@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-icon_menu">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="icon_menu" clip-path="url(#clip-icon_menu)">
+    <g id="icon_menu-2" data-name="icon_menu">
+      <g id="bk" fill="#112b4e" stroke="#1871e6" stroke-width="1" opacity="0">
+        <rect width="44" height="44" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="43" height="43" rx="3.5" fill="none"/>
+      </g>
+      <path id="menu" d="M.5,17a.5.5,0,0,1-.5-.5v-2A.5.5,0,0,1,.5,14h17a.5.5,0,0,1,.5.5v2a.5.5,0,0,1-.5.5Zm0-7A.5.5,0,0,1,0,9.5v-2A.5.5,0,0,1,.5,7h17a.5.5,0,0,1,.5.5v2a.5.5,0,0,1-.5.5Zm0-7A.5.5,0,0,1,0,2.5V.5A.5.5,0,0,1,.5,0h17a.5.5,0,0,1,.5.5v2a.5.5,0,0,1-.5.5Z" transform="translate(12 14)" fill="#112b4e"/>
+    </g>
+  </g>
+</svg>

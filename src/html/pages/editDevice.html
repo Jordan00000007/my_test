@@ -1,0 +1,76 @@
+<header class="row flex-nowrap justify-content-between align-items-center mar0">
+
+    <div class="col-4">
+        <a class="navbar-brand" href="javascript:;" onclick="event.preventDefault();history.go(-1);">
+        <!--<a class="navbar-brand" href="home">-->
+            <i class="fas fa-chevron-left"></i>
+        </a>
+    </div>
+    <div class="col-4">
+
+    </div>
+    <div class="col-4 text-right pad5">
+        <a class="nav-button" id="navBtn">
+            <span id="nav-icon3">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
+    </div>
+
+    <div class="fixed-top main-menu">
+        <div class="flex-center p-5">
+            <ul class="nav flex-column">
+                <li class="nav-item delay-1">
+                    <a class="nav-link" href="userSetting">
+                        <i class="fas fa-cog"></i> 設定
+                    </a>
+                </li>
+                <li class="nav-item delay-2">
+                    <a class="nav-link" href="changePassword">
+                        <i class="fas fa-key"></i> 更改密碼
+                    </a>
+                </li>
+                <li class="nav-item delay-2">
+                    <a class="nav-link" href="problem.html">
+                        <i class="fas fa-exclamation-circle"></i> 問題回報
+                    </a>
+                </li>
+                <li class="nav-item delay-3">
+                    <a class="nav-link" href="logout">
+                        <i class="fas fa-sign-out-alt"></i> 登出
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+
+        <div class="articleTitle">
+            車機編輯
+        </div>
+        <hr>
+
+        <ul id="sortable" class="carTable">
+
+        </ul>
+
+
+        <button type="button" id="sortBtn" class="btn btn-Submit btn-block" style="display: none;">
+            編輯排序
+        </button>
+        <button type="button" id="finishSortBtn" class="btn btn-Submit btn-block" style="display: none;">
+            完成排序
+        </button>
+        <button type="button" id="addBtn" class="btn btn-Submit btn-block" onclick="location.href='addDevice'">
+            新增車機
+        </button>
+        <label style="color:red">* 新增車機數量上限為30</label>
+
+    </div>
+</main>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/css/all.css">
+    <link rel="stylesheet" href="style/css/but.css">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+
+        <header class="row flex-nowrap justify-content-between align-items-center mar0">
+
+            <div class="col-4">
+                <!-- <a class="navbar-brand" href="#" onclick="event.preventDefault();history.go(-1);"> -->
+                <a class="navbar-brand" href="home">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="col-4">
+
+            </div>
+            <div class="col-4 text-right pad5">
+
+            </div>
+
+
+
+            <div class="fixed-top main-menu">
+                <div class="flex-center p-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item delay-1">
+                            <a class="nav-link" href="setting.html">
+                                <i class="fas fa-cog"></i> 設定
+                            </a>
+                        </li>
+                        <li class="nav-item delay-2">
+                            <a class="nav-link" href="problem.html">
+                                <i class="fas fa-exclamation-circle"></i> 問題回報
+                            </a>
+                        </li>
+                        <li class="nav-item delay-3">
+                            <a class="nav-link" href="login.html">
+                                <i class="fas fa-sign-out-alt"></i> 登出
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+
+                <div class="articleTitle">
+                    問題回報
+                </div>
+                <hr>
+
+                <div class="form-group">
+                    <select class="form-control">
+                        <option value="">問題選項</option>
+                        <option value="">常見問題01</option>
+                        <option value="">常見問題02</option>
+                        <option value="">常見問題03</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5s"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-Cancel btn-block">
+                    Cancel
+                </button>
+                <button type="button" class="btn btn-Submit btn-block">
+                    Submit
+                </button>
+
+            </div>
+        </main>
+
+
+    </div>
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.nav-button').click(function () {
+                $('body').toggleClass('nav-open');
+            });
+        });
+    </script>
+
+
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9sxfTnFb6UB4d44_GI1VrfDBxDRQ-yMc&callback=initMap"
+        async defer></script>
+    <script src="js/map.js"></script>
+
+</body>
+
+</html>

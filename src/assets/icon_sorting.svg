@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-icon_sorting">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="icon_sorting" clip-path="url(#clip-icon_sorting)">
+    <g id="icon_sorting-2" data-name="icon_sorting">
+      <rect id="bk" width="44" height="44" fill="none"/>
+      <path id="Union_1" data-name="Union 1" d="M1476.529,20707.477l-3.331-3.332a.67.67,0,0,1,.478-1.143h6.652a.668.668,0,0,1,.473,1.143l-3.326,3.332a.67.67,0,0,1-.946,0Zm-2.853-7.807a.669.669,0,0,1-.478-1.143l3.331-3.332a.671.671,0,0,1,.946,0l3.326,3.332a.668.668,0,0,1-.473,1.143Z" transform="translate(-1455 -20679)" fill="#112b4e"/>
+    </g>
+  </g>
+</svg>

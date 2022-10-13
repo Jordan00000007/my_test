@@ -1,0 +1,115 @@
+
+<main>
+<div class="wrapper">
+
+    <!-- Sidebar -->
+    <nav id="sidebar" class="active">
+        <ul id="menuList" class="list-unstyled components"></ul>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="content">
+        <!-- We'll fill this with dummy content -->
+        <div class="container">
+            <div class="row mb-2">
+                <div class="col-md-12 d-flex flex-row justify-content-between align-items-center" style="display:flex;flex-wrap:wrap;">
+                    <div id="title" class="page-label mb-1"></div>
+                   
+                    <div class="d-flex flex-row justify-content-end">
+                        <div id="filter" class="filterButton cursor mr-1"></div>
+                        <div id="download" class="downloadButton cursor mr-1"></div>
+                    </div> 
+                </div> 
+            </div>   
+
+            <div class="row mb-2 hidden" id="optionPanel">
+                <div class="col-md-12 text-left">
+                    
+
+                    <!--
+                    <select class="browser-default custom-select mb-1 w200 dh44 filter hidden" id="Filter1"></select>
+                    <select class="browser-default custom-select mb-1 w200 dh44 filter hidden" id="Filter2"></select>
+                    -->
+                   
+                    <select class="filter mb-1" id="Filter1" multiple="multiple" data-actions-box="true"></select>
+
+                    <select class="filter mb-1" id="Filter2" multiple="multiple" data-actions-box="true"></select>
+
+                    <div style="position:relative;display:inline-block;" class="mb-1">
+                        <input id="Filter3" type="text" class="form-control w200 dh44 filter hidden" style="padding-right: 35px;"/>
+                        <span id="calendar" class="calendar filter hidden" style="background-color: red;"></span>       
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card bg-default">
+                        <table class="table table-hover table-striped table-borderless rounded mevent">
+                            <thead>
+                                <tr>
+                                    <th width="25%" class="h44"><span class="span_eventName"></span></th>
+                                    <th width="25%"><span class="span_sensor"></span></th>
+                                    <th width="25%"><span class="span_startTime"></span></th>
+                                    <th width="25%"><span class="span_endTime"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                            </tbody>
+                        </table>
+
+                        <div id="PageList"></div>
+                    
+                    </div>
+                </div>
+                
+            </div>  
+        </div>    
+
+    </div>
+
+</div>   
+
+
+<div class="modal" tabindex="-1" role="dialog" id="DateTimeDialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content no-border">
+           
+            <div class="modal-header no-border align-items-center">
+                <label class="modal-title"><span class="span_selectTime"></span></label> 
+                <i class="fas fa-times cursor text-right" data-dismiss="modal"></i> 
+            </div>
+
+            <div class="modal-body no-border" height="800px">
+                <label class="text-label"><span class="span_startTime"></span></label>
+                <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                    <input type="text" class="form-control datetimepicker-input h44" data-target="#datetimepicker1"/>
+                    <div class="input-group-append h44" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                        <div class="input-group-text"><i class="fa fa-calendar cursor"></i></div>
+                    </div>
+                </div>
+                <br/>
+                <label class="text-label"><span class="span_endTime"></span></label>
+                <div class="input-group date" id="datetimepicker2" data-target-input="nearest">
+                    <input type="text" class="form-control datetimepicker-input h44" data-target="#datetimepicker2"/>
+                    <div class="input-group-append h44" data-target="#datetimepicker2" data-toggle="datetimepicker">
+                        <div class="input-group-text"><i class="fa fa-calendar cursor"></i></div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="modal-footer no-border">
+                <button type="button" class="btn btn-primary custom-blue" style="width:100% !important" id="DateSubmit"><span class="span_confirm"></span></button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+</main>

@@ -1,0 +1,8 @@
+body {
+    overflow: auto;
+    -webkit-overflow-scrolling:touch;
+}
+
+.switchbut > label{
+    background: linear-gradient(#73ff2c, #46bd09, #429a16, #65f31d);
+}

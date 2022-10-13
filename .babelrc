@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "lodash",
+        "@babel/plugin-syntax-dynamic-import"
+    ],
+    "presets": [
+        [
+            "@babel/env",
+            {
+                "targets": {
+                    "node": 6
+                }
+            }
+        ]
+    ]
+}

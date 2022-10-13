@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-icon_logout">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="icon_logout" clip-path="url(#clip-icon_logout)">
+    <g id="icon_logout-2" data-name="icon_logout">
+      <rect id="bk" width="44" height="44" fill="none"/>
+      <path id="Union_12" data-name="Union 12" d="M411.24,63.735l1.994-2.022h-7.819V60.159h7.82l-1.995-2.024,1.075-1.088,3.832,3.888-3.832,3.89ZM408.48,56V53.93h-6.13a1.558,1.558,0,0,0-1.54,1.56V66.38a1.556,1.556,0,0,0,1.54,1.55h6.13V66H403V56Z" transform="translate(-386.81 -38.93)" fill="#112b4e"/>
+    </g>
+  </g>
+</svg>

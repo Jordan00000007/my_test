@@ -1,0 +1,230 @@
+
+<main>
+    <div class="wrapper">
+    
+        <!-- Sidebar -->
+        <nav id="sidebar" class="active">
+            <ul id="menuList" class="list-unstyled components">
+            </ul>
+        </nav>
+    
+        <!-- Page Content -->
+        <div id="content">
+            <!-- We'll fill this with dummy content -->
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <div class="login-label"><span class="span_sensorAdd"></span></div>
+                    </div>
+
+                    
+                    
+                </div>  
+                <hr/>
+                <div class="row">
+                   
+                    <div class="col-md-4">
+                        <label class="text-label">MAC &nbsp;&nbsp;<i data-toggle="modal" data-target="#QRScanModal" style="display:none;cursor:pointer;color:red;" id="qrcodeIcon"
+                            class="fas fa-qrcode"> ( 點此掃描條碼 )</i></label>
+                       
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="mac" value="">
+                        </div>
+                        
+                    </div>  
+
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_sensorName"></span></label>
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" id="name" value="">
+                        </div>
+                    </div> 
+                </div>  
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_highThreshold"></span></label>
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" id="OT" value="25">
+                        </div>
+                    </div> 
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_lowThreshold"></span></label>
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" id="UT" value="-20">
+                        </div>
+                    </div>  
+                </div>  
+               
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_lowBatteryThreshold"></span></label>
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" id="LBATT" value="2.2">
+                        </div>
+                    </div> 
+    
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_expiredDuration"></span></label>
+                        <div class="input-group mb-3">
+                            <select type="text" class="browser-default custom-select" id="EXP_D" value="">
+                            </select>
+                            <select type="text" class="browser-default custom-select" id="EXP_H" value="">
+                            </select>
+                            <select type="text" class="browser-default custom-select" id="EXP_M" value="">
+                            </select>
+                        </div>
+                    </div>  
+                   
+                </div>  
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_parameterA"></span></label>
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" id="A" value="-0.1818">
+                        </div>
+                    </div> 
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_parameterB"></span></label>
+                        <div class="input-group mb-3">
+                          <input type="text" class="form-control" id="B" value="188.2">
+                        </div>
+                    </div>  
+                </div> 
+                
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_dataRecordingFrequency"></span><span class='note ml-1'>* <span class="span_unitSec"></span></span></label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="LOGFREQ" value="180" />
+                        </div>
+                        <span class='note'>* <span class="span_minValueAndMaxValue"></span></span>
+                        <span class='note ml-1'>* <span class="span_shouldNotGreaterThanValueOfInactivity"></span></span>
+                    </div>  
+                   
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_dataTransmitFrequency"></span><span class='note ml-1'>* <span class="span_unitMin"></span></span></label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="INACTIVITY" value="10" />
+                        </div>
+                    </div>  
+                </div>  
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <label class="text-label"><span class="span_company"></span></label>
+                        <div class="input-group mb-3">
+                            <select type="text" class="browser-default custom-select" id="Company" value=""></select>
+                        </div>
+                    </div> 
+    
+                    
+
+                    <div class="col-md-4 d-none">
+                        <label class="text-label"><span class="span_sensorWorkingMode"></span></label>
+                        <div class="input-group mb-3">
+                            <select class="form-control mb-1" id="MODE">
+                            </select>
+                        </div>
+                    </div> 
+                   
+                </div>  
+                
+    
+               
+                <br/> 
+                <hr/>
+                <div class="row">
+                    <div class="col-md-12 d-flex flex-row justify-content-between">
+                        <label class="title-label"><span class="span_browseableStores"></span></label>
+                        <a href="#"><div id="addStore" class="addButton" ></div></a>
+                    </div> 
+                </div>
+    
+                <div class="row">
+                    <div class="col-md-12">
+                        <label id="StoreLabel" class="text-label"><span class="span_pleaseClickTheIconOnTheRightToAddAStorePleaseClickTheIconOnTheRightToAddAStore"></span></label>
+    
+                        <div id="StoreSelected" class="card bg-default hidden">
+                            <table class="table table-striped table-borderless rounded astore">
+                                <thead>
+                                    <tr><th width="33%" class="h44"><span class="span_storeName"></span></th><th width="33%"><span class="span_address"></span></th><th width="33%"><span class="span_action"></span></th></tr>
+                                </thead>
+                                <tbody id="StoreSelectedBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                 
+    
+                
+    
+    
+                <hr/>
+    
+                <button type="button" id="submit" class="btn btn-primary custom-blue"><span class="span_confirm"></span></button>
+    
+                <button type="button" id="cancel" class="btn btn-secondary custom-gray" onclick="javascript:location.href='manageUser'"><span class="span_cancel"></span></button>
+            </div>    
+    
+    
+            
+    
+           
+    
+        </div>
+    
+    </div>   
+    
+    <div class="modal" tabindex="-1" role="dialog" id="StoreList">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content no-border">
+               
+                <div class="modal-header no-border align-items-center">
+                    <label class="modal-title"><span class="span_selectStore"></span></label> 
+                    <i class="fas fa-times cursor text-right" data-dismiss="modal"></i> 
+                </div>
+    
+                <div class="modal-body no-border" height="800px">
+                    <table  class="modal-list">
+                        <tbody id="StoreAvailableList">
+                        <tbody>
+                    </table>      
+                </div>
+    
+                <div class="modal-footer no-border">
+                    <button type="button" class="btn btn-primary custom-blue" style="width:100% !important" id="StoreSubmit"><span class="span_confirm"></span></button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+     <!-- Modal -->
+     <div class="modal fade" id="QRScanModal" tabindex="-1" role="dialog" aria-labelledby="QRScanModalLabel"
+     aria-hidden="true" data-backdrop="static" data-keyboard="false">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title" id="QRScanModalLabel">條碼偵測中...</h5>
+                 <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                 </button> -->
+             </div>
+             <div class="modal-body">
+                 <div id="interactive" class="viewport" autofocus></div>
+             </div>
+             <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                     id="closeQRScanModal">Close</button>
+             </div>
+         </div>
+     </div>
+ </div>
+    
+    </main>

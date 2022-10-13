@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-icon_edit">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="icon_edit" clip-path="url(#clip-icon_edit)">
+    <g id="icon_edit-2" data-name="icon_edit">
+      <rect id="bk" width="44" height="44" fill="#828282" opacity="0"/>
+      <path id="edit-solid" d="M168.139,2.9l3.035,3.035a.329.329,0,0,1,0,.464l-7.35,7.35-3.123.347a.655.655,0,0,1-.724-.724l.347-3.123,7.35-7.35A.329.329,0,0,1,168.139,2.9Zm5.452-.771L171.949.484a1.316,1.316,0,0,0-1.858,0L168.9,1.675a.329.329,0,0,0,0,.464l3.035,3.035a.329.329,0,0,0,.464,0l1.191-1.191A1.316,1.316,0,0,0,173.591,2.126Z" transform="translate(-144.975 15.9)" fill="#112b4e"/>
+    </g>
+  </g>
+</svg>

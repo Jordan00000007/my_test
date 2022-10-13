@@ -1,0 +1,27 @@
+<svg width="232.33508" height="232.33508" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient3199">
+   <stop stop-color="#ffffff" offset="0" id="stop3201"/>
+   <stop stop-color="#ffffff" stop-opacity="0" offset="1" id="stop3203"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3157">
+   <stop stop-color="#101010" id="stop3159" offset="0"/>
+   <stop stop-color="#404040" id="stop3161" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0.126087" x2="0.182609" y1="0.886957" x1="0.804348" id="linearGradient3163" xlink:href="#linearGradient3157"/>
+  <linearGradient y2="0.897516" x2="0.801656" y1="0.115528" x1="0.190062" id="linearGradient3167" xlink:href="#linearGradient3157"/>
+  <linearGradient y2="0.963185" x2="0.499096" y1="0.056403" x1="0.357919" id="linearGradient3206" xlink:href="#linearGradient3199"/>
+ </defs>
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="url(#linearGradient3163)" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" d="m232.335093,116.167552a116.167545,116.167545 0 1 1 -232.335089,0a116.167545,116.167545 0 1 1 232.335089,0z" id="path3155"/>
+  <path fill="url(#linearGradient3167)" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" d="m218.192977,116.167569a102.025413,102.025413 0 1 1 -204.050826,0a102.025413,102.025413 0 1 1 204.050826,0z" id="path3165"/>
+  <path fill="#666666" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" d="m215.162493,116.167546a98.99495,98.99495 0 1 1 -197.9899,0a98.99495,98.99495 0 1 1 197.9899,0z" id="path2383"/>
+  <path fill="url(#linearGradient3206)" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path3189" d="m193.444213,84.852816c-5.81801,30.8196 -41.84634,41.92704 -78.28682,46.97208c-36.50572,5.05408 -78.85753,0.87255 -87.07182,-34.57977c-8.19646,-35.37541 33.43676,-80.07253 88.08197,-80.07253c54.64521,0 83.07657,36.95655 77.27667,67.68022z"/>
+ </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-icon_next">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="icon_next" clip-path="url(#clip-icon_next)">
+    <g id="icon_next-2" data-name="icon_next">
+      <g id="next">
+        <path id="bk" d="M44,0H0V44H44Z" fill="none"/>
+        <path id="icon" d="M0,1.9,1.9,0,10,8.1l-8.1,8.1L0,14.291,6.181,8.1Z" transform="translate(17 14)" fill="#112b4e"/>
+      </g>
+    </g>
+  </g>
+</svg>

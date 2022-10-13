@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-icon_feedback">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="icon_feedback" clip-path="url(#clip-icon_feedback)">
+    <g id="icon_feedback-2" data-name="icon_feedback">
+      <rect id="bk" width="44" height="44" fill="none"/>
+      <path id="Path_374" data-name="Path 374" d="M10,2a8,8,0,1,0,8,8A8,8,0,0,0,10,2Zm.8,13.6H9.2V14h1.6Zm1.656-6.2-.72.736A2.723,2.723,0,0,0,10.8,12.4H9.2V12a3.22,3.22,0,0,1,.936-2.264l.992-1.008A1.564,1.564,0,0,0,11.6,7.6a1.6,1.6,0,1,0-3.2,0H6.8a3.2,3.2,0,0,1,6.4,0A2.546,2.546,0,0,1,12.456,9.4Z" transform="translate(12 12)" fill="#112b4e"/>
+    </g>
+  </g>
+</svg>

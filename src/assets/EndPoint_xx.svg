@@ -1,0 +1,15 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="26" height="26" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <path d="m11.963192,0c-5.522,0 -10,4.395 -10,9.815c0,5.505 4.375,9.268 10,14.185c5.625,-4.917 10,-8.68 10,-14.185c0,-5.42 -4.478,-9.815 -10,-9.815zm0,18c-4.419,0 -8,-3.582 -8,-8s3.581,-8 8,-8s8,3.582 8,8s-3.581,8 -8,8zm0,-13l1.564808,3.116192l3.435192,0.515808l-2.527,2.429l0.617,3.45l-3.09,-1.654l-3.09,1.653l0.617,-3.45l-2.527,-2.428l3.472,-0.479l1.528,-3.153z" id="svg_1" fill="#66c8bc"/>
+  <path fill="#f15b48" stroke="null" stroke-width="null" stroke-opacity="null" fill-opacity="null" opacity="0.5" d="m11.466285,8.813243" id="svg_3"/>
+  <ellipse fill="#f15b48" stroke="null" stroke-width="null" stroke-opacity="null" fill-opacity="null" cx="9.699507" cy="5.463727" id="svg_4"/>
+  <ellipse fill="#4c4c4c" stroke-width="null" stroke-opacity="null" cx="11.981595" cy="9.991095" id="svg_5" rx="8.024116" ry="8.024116" stroke="null"/>
+  <text style="cursor: move;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="12" id="svg_2" y="13.930988" x="8.218754" stroke-opacity="null" stroke-width="2" stroke="null" fill="#B8874D">E</text>
+ </g>
+</svg>

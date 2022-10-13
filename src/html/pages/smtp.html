@@ -1,0 +1,100 @@
+
+<main>
+<div class="wrapper">
+
+    <!-- Sidebar -->
+    <nav id="sidebar" class="active">
+        <ul id="menuList" class="list-unstyled components">
+        </ul>
+    </nav>
+
+    <!-- Page Content -->
+    <div id="content">
+        <!-- We'll fill this with dummy content -->
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <div class="page-label"><span class="span_smtpSetting"></span></div>
+                </div>
+                
+            </div>  
+            <hr/>
+             
+            <div class="row">
+                <div class="col-md-4">
+                    <label class="text-label">SMTP Host</label>
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" id="Host" value="">
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <label class="text-label">SMTP Port</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="Port" value="">
+                    </div>
+                </div>  
+            </div>  
+            <div class="row">
+                <div class="col-md-4">
+                    <label class="text-label"><span class="span_userAccount"></span></label>
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" id="Account" value="">
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="text-label"><span class="span_userPassword"></span></label>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                      <input type="password" class="form-control" id="Password" value="">
+                    </div>
+                </div>  
+            </div>  
+            <div class="row">
+                <div class="col-md-4">
+                    <label class="text-label"><span class="span_senderName"></span></label>
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" id="SendName" value="">
+                    </div>
+                </div> 
+                <div class="col-md-4">
+                    
+                </div>  
+            </div> 
+            <hr/>
+            <div class="row mb-1">
+                <div class="col-md-12">
+                    <label class="title-label"><span class="span_letterEncryption"></span></label>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    
+                    
+                    <label class="cursor mb-3">
+                      <input id="EncodeNone" type="radio" class="hide" name="fa-check-circle1" value="1">
+                      <i class="fa fa-fw fa-check-circle"></i>&nbsp;<span class="span_notEncrypted"></span>
+                    </label>
+                    <br>
+                    <label class="cursor mb-3">
+                      <input id="EncodeSSL" type="radio" class="hide" name="fa-check-circle1" value="2">
+                      <i class="fa fa-fw fa-check-circle"></i>&nbsp;SSL
+                    </label>
+                    <br>
+                    <label class="cursor mb-3">
+                        <input id="EncodeTLS" type="radio" class="hide" name="fa-check-circle1" value="3">
+                        <i class="fa fa-fw fa-check-circle"></i>&nbsp;TSL
+                    </label>   
+                </div>
+            </div>
+            <hr/>
+            <button type="button" class="btn btn-primary custom-blue" id="Submit"><span class="span_confirm"></span></button>
+            <button type="button" class="btn btn-secondary custom-gray" onclick="javascript:location.href='home'"><span class="span_cancel"></span></button>
+        </div>    
+
+    </div>
+
+</div>   
+</main>

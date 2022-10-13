@@ -1,0 +1,21 @@
+version: "3.7" # 目前使用的版本，可以參考官網：
+services: # services 關鍵字後面列出 web, redis 兩項專案中的服務
+  Website:
+    restart: always
+    build: 
+      context: ./
+      dockerfile: Dockerfile # Build 在同一資料夾的 Dockerfile（描述 Image 要組成的 yaml 檔案）成 container
+    image: website:v0
+    ports:
+      - "80:80" # 外部露出開放的 port 對應到 docker container 的 port
+    container_name: website
+    networks:
+      icap_net:
+        ipv4_address: 172.30.0.16
+
+networks:
+  icap_net:
+    name: icap_net
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24

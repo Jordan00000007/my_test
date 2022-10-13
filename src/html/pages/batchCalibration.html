@@ -1,0 +1,200 @@
+
+<main>
+    <div class="wrapper">
+    
+        <!-- Sidebar -->
+        <nav id="sidebar" class="active">
+            <ul id="menuList" class="list-unstyled components">
+            </ul>
+        </nav>
+    
+        <!-- Page Content -->
+        <div id="content">
+            <!-- We'll fill this with dummy content -->
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <div id="title" class="page-label"><span class="span_batchCalibration"></span></div>
+                    </div>
+                </div>  
+                <hr/>
+                </br> 
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <div class="card bg-default">
+                            
+    
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <label class="text-label"><span class="span_temperatureSample"></span></label>
+                                        <div class="input-group mb-1">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="span_sample"></span></span>
+                                            </div>
+                                            <input id="Sample" type="text" class="form-control" value="c29cb27f1481"/>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <label><span class="span_uploadGateway"></span></label>
+                                        <div class="input-group mb-1">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="span_gateway"></span></span>
+                                            </div>
+                                            <input id="GMAC" type="text" class="form-control" value="eab9769195a5"/>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <label><span class="span_testingDate"></span></label>
+                                        <div class="input-group mb-1">
+                                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                                                <div class="input-group-prepend dh38"  data-target="#datetimepicker1" data-toggle="datetimepicker">
+                                                    <span class="input-group-text cursor dh38"><span class="span_high"></span></span>
+                                                </div>
+                                                <input id="DateTempHigh" type="text" class="form-control datetimepicker-input dh38" data-target="#datetimepicker1"/>
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="input-group mb-1">
+                                            <div class="input-group date" id="datetimepicker2" data-target-input="nearest">
+                                                <div class="input-group-prepend dh38"  data-target="#datetimepicker2" data-toggle="datetimepicker">
+                                                    <span class="input-group-text cursor dh38"><span class="span_low"></span></span>
+                                                </div>
+                                                <input id="DateTempLow" type="text" class="form-control datetimepicker-input dh38" data-target="#datetimepicker2"/>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <label><span class="span_temperatureThreshold"></span></label>
+                                        <div class="input-group mb-1">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="span_high"></span></span>
+                                            </div>
+                                            <input id="TempThresholdHigh" type="text" class="form-control" value="35"/>
+                                        </div>
+                                        <div class="input-group mb-1">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="span_low"></span></span>
+                                                </div>
+                                            <input id="TempThresholdLow" type="text" class="form-control" value="-15"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="form-group">
+                                        <label class="text-label"><span class="span_calibrtaionTarget"></span></label>
+                                        <textarea id="Target" class="form-control" rows="5">dc23d47227aa,c2c799099343,effbc316fb0b,c1796cb8b132,ccfc321c7c14</textarea>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="row text-right">
+                                <div class="col-sm">
+                                    <button type="button" class="btn btn-primary custom-blue" id="calculate" ><span class="span_calculate"></span></button>
+                                    
+                                </div>
+                               
+                            </div>
+    
+                        </div>
+    
+                    </div>   
+                </div>  
+                <br/>
+                
+                
+                <hr/>
+                
+                <br/>
+                <div class="row">
+                    <div class="col-md-12 d-flex flex-row justify-content-between align-items-center" style="display:flex;flex-wrap:wrap;">
+                        <div id="title2" class="page-label mb-3"><span class="span_calibrtaionResult"></span></div>
+                        <button type="button" class="btn btn-primary custom-blue mb-3 " id="uploadAll" ><span class="span_uploadAll"></span></button>
+                    </div> 
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card bg-default">
+                                <table class="table table-hover table-striped table-borderless rounded muser" >
+                                    <thead>
+                                        <tr>
+                                            <th><div id="col1">MAC</div></th>
+                                            <th><div id="col2"><span class="span_highTemperaturePeriod"></span></div></th>
+                                            <th><div id="col3"><span class="span_lowTemperaturePeriod"></span></div></th>
+                                            <th><div id="col4"><span class="span_modifyBefore"></span>&nbsp;A&nbsp;<span class="span_value"></span></div></th>
+                                            <th><div id="col5"><span class="span_modifyBefore"></span>&nbsp;B&nbsp;<span class="span_value"></span></div></th>
+                                            <th><div id="col6"><span class="span_modifyAfter"></span>&nbsp;A&nbsp;<span class="span_value"></span></div></th>
+                                            <th><div id="col7"><span class="span_modifyAfter"></span>&nbsp;B&nbsp;<span class="span_value"></span></div></th>
+                                            <th><div id="col8"><span class="span_action"></span></div></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbody">
+                                        
+                                    </tbody>
+                                </table>
+        
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>    
+        </div>
+    </div>   
+    
+    
+    <div class="modal" tabindex="-1" role="dialog" id="DateTimeDialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content no-border">
+               
+                <div class="modal-header no-border align-items-center">
+                    <label class="modal-title"><span class="span_selectTime"></span></label> 
+                    <i class="fas fa-times cursor text-right" data-dismiss="modal"></i> 
+                </div>
+    
+                <div class="modal-body no-border" height="800px">
+                    <label class="text-label"><span class="span_startTime"></span></label>
+                    <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input dh44" data-target="#datetimepicker1"/>
+                        <div class="input-group-append dh44" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar cursor"></i></div>
+                        </div>
+                    </div>
+                    <br/>
+                    <label class="text-label"><span class="span_endTime"></span></label>
+                    <div class="input-group date" id="datetimepicker2" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input dh44" data-target="#datetimepicker2"/>
+                        <div class="input-group-append dh44" data-target="#datetimepicker2" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar cursor"></i></div>
+                        </div>
+                    </div>
+    
+                    
+                </div>
+    
+                <div class="modal-footer no-border">
+                    <button type="button" class="btn btn-primary custom-blue" style="width:100% !important" id="DateSubmit"><span class="span_confirm"></span></button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+   
+    
+    </main>

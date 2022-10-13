@@ -1,0 +1,90 @@
+<header class="row flex-nowrap justify-content-between align-items-center mar0">
+
+    <div class="col-4">
+        <!-- <a class="navbar-brand" href="#" onclick="event.preventDefault();history.go(-1);"> -->
+        <a class="navbar-brand" href="home">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+    </div>
+    <div class="col-4">
+
+    </div>
+    <div class="col-4 text-right pad5">
+
+    </div>
+
+</header>
+
+<main>
+    <div class="container">
+
+        <div class="articleTitle">
+            新增車機
+        </div>
+        <hr>
+
+        <div class="form-group">
+            <label for="">
+                車機名稱
+            </label>
+            <input type="" class="form-control" id="deviceName" placeholder="車機01">
+        </div>
+        <div class="form-group">
+            <label for="">
+                IMEI <i data-toggle="modal" data-target="#QRScanModal" style="display: none;" id="qrcodeIcon"
+                    class="fas fa-qrcode"> ( 點此掃描條碼 )</i>
+            </label>
+            <input type="" class="form-control" id="IMEI" placeholder="*****">
+        </div>
+        <div class="form-group">
+            <label for="">
+                司機名稱
+            </label>
+            <input type="" class="form-control" id="driverName" placeholder="王大明">
+        </div>
+        <div class="form-group">
+            <label for="">
+                防盜告警靈敏度設定
+            </label>
+            <select id="sensitivitySelect" class="form-control">
+                <option value="1">1 (最低)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option selected="selected" value="4">4 (建議值)</option>
+                <option value="5">5 (最高)</option>
+            </select>
+        </div>
+
+
+        <button type="button" class="btn btn-Submit btn-block" id="submitBtn">
+            儲存此車機
+        </button>
+
+        <div id="popmsg" class="col-12" style="display:none;margin-bottom: 5px;"></div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="QRScanModal" tabindex="-1" role="dialog" aria-labelledby="QRScanModalLabel"
+            aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="QRScanModalLabel">條碼偵測中...</h5>
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button> -->
+                    </div>
+                    <div class="modal-body">
+                        <div id="interactive" class="viewport"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                            id="closeQRScanModal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>

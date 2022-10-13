@@ -1,0 +1,59 @@
+html, body
+    overflow: hidden
+    // display: flex
+    background-color: transparent !important
+.signBG
+    z-index: -1
+    position: fixed
+    top: 0
+    width: 100%
+    height: 100%
+    background: url(../../assets/bg.jpg)  no-repeat  center  bottom 
+    background-size: cover
+    // -webkit-animation: zoom 100s infinite alternate
+    // animation: zoom 30s infinite alternate
+    // -webkit-animation-timing-function: linear
+    // animation-timing-function: linear
+@keyframes zoom
+    from
+        -webkit-transform: scale(1.01)
+        transform: scale(1.01)
+
+    to
+        -webkit-transform: scale(1.5)
+        transform: scale(1.5)
+
+.signin
+    margin-top: 15%
+    .form-signin
+        width: 100%
+        max-width: 330px
+        padding: 15px
+        margin: auto
+        .form-control
+            border: 1px solid #2895CF
+        ::placeholder
+            color: #C1C1C1
+        button
+            background: #014163
+            color: #ffffff
+            transition: 0.5s
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2)
+            &:hover
+                opacity: 0.8
+                background-color: #014163
+                border-color: #014163
+                box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.8)
+    .form-ps
+        a
+            color: #014163
+            font-size: 14px
+            line-height: 30px
+            font-weight: 700
+    .form-title
+        font-size: 46px
+        font-weight: 700
+        color: #014163
+        padding: 30px 0
+.form-ver
+    font-size: 14px

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-icon_eye">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="icon_eye" clip-path="url(#clip-icon_eye)">
+    <g id="icon_eye-2" data-name="icon_eye">
+      <rect id="bk" width="44" height="44" fill="none"/>
+      <path id="eye-solid" d="M23.856,71.392A13.364,13.364,0,0,0,12,64,13.366,13.366,0,0,0,.146,71.392a1.348,1.348,0,0,0,0,1.216A13.364,13.364,0,0,0,12,80a13.366,13.366,0,0,0,11.855-7.392,1.348,1.348,0,0,0,0-1.216ZM12,78a6,6,0,1,1,6-6A6,6,0,0,1,12,78Zm0-10a3.971,3.971,0,0,0-1.055.158,1.994,1.994,0,0,1-2.788,2.788A3.991,3.991,0,1,0,12,68Z" transform="translate(10 -50)" fill="#112b4e"/>
+    </g>
+  </g>
+</svg>

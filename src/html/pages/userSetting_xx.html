@@ -1,0 +1,61 @@
+<main>
+    <div class="container">
+
+        <div class="articleTitle">
+            設定
+        </div>
+        <hr>
+
+        <div class="form-group">
+            <label for="">
+                帳號
+            </label>
+            <input type="" class="form-control" id="account" placeholder="" readonly="value">
+        </div>
+        <div class="form-group">
+            <label for="">
+                閘道選擇 (可複選)
+            </label>
+            <select id="gatesSelect" multiple="multiple"></select>
+               
+            
+        </div>
+        <div class="form-group">
+            <label for="">
+                使用者名稱
+            </label>
+            <input type="" class=" form-control" id="userName" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="">
+                通報電話 <input type="checkbox" id="isMainPhoneEnabled" name="" value=""
+                    style="vertical-align: middle;height: 18px;width: 20px; ">
+            </label>
+            <input type="tel" class="form-control" id="alarmPhone1" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="">
+                通報Email <input type="checkbox" id="isMainEmailEnabled" name="" value=""
+                    style="vertical-align: middle;height: 18px;width: 20px;">
+            </label>
+            <input type="email" class="form-control" id="alarmEmail1" placeholder="" readonly="value">
+        </div>
+        
+        
+        <!-- 
+        <div class="form-group">
+            <label for="">
+                防盜通報Email
+            </label>
+            <input type="email" class="form-control" id="alarmEmail1" placeholder="" readonly="value">
+            <input type="email" class="form-control" id="alarmEmail2" placeholder="">
+        </div> -->
+
+
+        <button type="button" class="btn btn-Submit btn-block" id="submitBtn">
+            送出
+        </button>
+
+        <div id="popmsg" class="col-12" style="display:none;margin-bottom: 5px;"></div>
+    </div>
+</main>

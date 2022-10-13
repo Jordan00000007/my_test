@@ -1,0 +1,19 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient3199">
+   <stop stop-color="#ffffff" offset="0" id="stop3201"/>
+   <stop stop-color="#ffffff" stop-opacity="0" offset="1" id="stop3203"/>
+  </linearGradient>
+  <linearGradient y2="0.963185" x2="0.499096" y1="0.056403" x1="0.357919" id="linearGradient3206" xlink:href="#linearGradient3199"/>
+ </defs>
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="26" width="26" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" fill="#fc3747" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" d="m19.479908,11.66756a7.81235,7.81235 0 1 1 -15.624701,0a7.81235,7.81235 0 1 1 15.624701,0z" id="path2383"/>
+  <path stroke="null" fill="url(#linearGradient3206)" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dashoffset="0" id="path3189" d="m17.765974,9.196306c-0.459138,2.43218 -3.302373,3.308742 -6.178134,3.706879c-2.880909,0.398851 -6.223173,0.068859 -6.871417,-2.72892c-0.646837,-2.791709 2.638717,-6.319056 6.951134,-6.319056c4.312417,0 6.556125,2.916487 6.098416,5.341097z"/>
+ </g>
+</svg>

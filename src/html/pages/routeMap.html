@@ -1,0 +1,78 @@
+<header class="row flex-nowrap justify-content-between align-items-center mar0">
+
+    <div class="col-4">
+        <!-- <a class="navbar-brand" href="#" onclick="event.preventDefault();history.go(-1);"> -->
+        <a class="navbar-brand" href="home">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+    </div>
+    <div class="col-4">
+        <div class="articleTitle">
+            查詢軌跡
+        </div>
+    </div>
+    <div class="col-4 text-right pad5">
+        <a class="nav-button">
+            <span id="nav-icon3">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
+    </div>
+
+    <div class="fixed-top main-menu">
+        <div class="flex-center p-5">
+            <ul class="nav flex-column">
+                <li class="nav-item delay-1">
+                    <a class="nav-link" href="userSetting">
+                        <i class="fas fa-cog"></i> 設定
+                    </a>
+                </li>
+                <li class="nav-item delay-2">
+                    <a class="nav-link" href="changePassword">
+                        <i class="fas fa-key"></i> 更改密碼
+                    </a>
+                </li>
+                <li class="nav-item delay-2">
+                    <a class="nav-link" href="problem.html">
+                        <i class="fas fa-exclamation-circle"></i> 問題回報
+                    </a>
+                </li>
+                <li class="nav-item delay-3">
+                    <a class="nav-link" href="logout">
+                        <i class="fas fa-sign-out-alt"></i> 登出
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <!--<div class="container">-->
+    <header class="row flex-nowrap justify-content-between align-items-center mar0" style="margin-bottom:5px;">
+        <div class="col-2">
+        </div>
+        <div class="col-4">
+            <select class="form-control" id="deviceSelect" style="height: 55px;">
+            </select>
+        </div>
+        <div class="col-4">
+            <select class="form-control" id="dateSelect" style="height: 55px;">
+            </select>
+        </div>
+        <div class="col-2">
+        </div>
+
+
+    </header>
+    
+    <div style="height:500px;">
+        <div id="map"></div>
+    </div>
+
+    <div id="popmsg" class="col-12" style="display:none;position:absolute;top:200px;"></div>
+</main>
